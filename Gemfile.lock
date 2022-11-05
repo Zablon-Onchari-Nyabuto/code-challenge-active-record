@@ -1,3 +1,10 @@
+GIT
+  remote: https://github.com/stympy/faker.git
+  revision: d221c964bf5c096567322cb52484fb46276e9612
+  specs:
+    faker (3.0.0)
+      i18n (>= 1.8.11, < 2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -44,10 +51,12 @@ GEM
     zeitwerk (2.6.4)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
   activerecord (~> 6.1)
+  faker!
   pry
   rake
   require_all

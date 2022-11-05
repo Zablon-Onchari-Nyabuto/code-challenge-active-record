@@ -16,6 +16,8 @@ gem "rake"
 # https://github.com/sparklemotion/sqlite3-ruby
 gem "sqlite3", "~> 1.4"
 
+gem 'faker', git: 'https://github.com/stympy/faker.git'
+
 # Require all files in a folder
 # https://github.com/jarmo/require_all
 gem "require_all"
